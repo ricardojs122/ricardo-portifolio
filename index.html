@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Portfólio de Ricardo</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
+        </div>  
+
+        <header id="home">
+            <div class="img-wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Web Developer & Desenvolvedor FullStack</h1>
+                <p>Ricardo Melo</p>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+          <nav>
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+              <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+              <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+              <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
+            </ul>
+          </nav>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/ricardojs--/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/ricardojs122"><i class="fab fa-github-alt"></i></a>
+          </div>
+        </aside>
+
+        <section class="sessao-conhecimentos" id="conhecimentos">
+          <div class="sessao-header">
+            <h1>Conhecimentos</h1>
+          </div>
+          <div class="conhecimentos">
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>HTML é uma linguagem de marcação usada para criar páginas da web.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>CSS é usado para estilizar páginas da web e torná-las visualmente atraentes.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-java "></i>
+                <h3>Java</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Java é uma linguagem de programação amplamente utilizada para desenvolvimento de software.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-js"></i>
+                <h3>Javascript</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Javascript é uma linguagem de programação usada para criar interatividade em páginas da web.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-github"></i>
+                <h3>Git & Github </h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Git é um sistema de controle de versão e Github é uma plataforma para hospedar projetos de código aberto.</p>
+              </div>
+            </div>
+            <div class="conhecimento">
+              <div class="conhecimento-header">
+                <i class="fab fa-angular"></i>
+                <h3>Angular</h3>
+              </div>
+              <div class="conhecimento-text">
+                <p>Angular é um framework de desenvolvimento web mantido pelo Google.</p>
+              </div>
+            </div>
+            <div class="conhecimentos-img-wrapper">
+              <img src="imagens/conhecimentos.png" alt="imagem conhecimento">
+            </div>
+          </div>
+        </section>
+        
+
+        <div class="sessao-projetos" id="projetos">
+          <div class="sessao-header">
+            <h1>Projetos</h1>
+          </div>
+          <div class="projetos">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj1.jpg" alt="imagem do projeto para Detran-AL" />
+              </div>
+              <div class="card-info">
+                <h2>Jogo Memoria</h2>
+                <h3>Javascript</h3>
+                <p>Jogo da memória desenvolvido para o DETRAN-AL para a arena de jogos da Semana Nacional de Trânsito.</p>
+                <button class="btn"><a href="https://jogo-memoria-asn-transito.vercel.app/">Saiba Mais</a></button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj2.jpg" alt="imagem do projeto Pokedex" />
+              </div>
+              <div class="card-info">
+                <h2>Pokedex vanilla</h2>
+                <h3>HTML, JS & CSS</h3>
+                <p>Pokedex criada com HTML, CSS & JavaScript utilizando da PokeApi.</p>
+                <button class="btn"><a href="https://js-developer-pokedex-pied.vercel.app/">Saiba Mais</a></button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj3.jpg" alt="imagem do projeto Pokefinder" />
+              </div>
+              <div class="card-info">
+                <h2>PokeFinder</h2>
+                <h3>Angular & TypeScript</h3>
+                <p>PokeFinder criado com a framework angular e com integração da PokeApi para procurar Pokemons escrevendo nome deles.</p>
+                <button class="btn"><a href="https://poke-finder-angular.vercel.app/">Saiba Mais</a></button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="imagens/proj4.png" alt="imagem do projeto Casa Bela" />
+              </div>
+              <div class="card-info">
+                <h2>PSN CLONE</h2>
+                <h3>Angular</h3>
+                <p>Recriando a PSN com a framework Angular.</p>
+                <button class="btn"><a href="https://clonedapsn.vercel.app/">Saiba Mais</a></button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+          <section class="sessao-orcamento" id="orcamento">
+          <div class="orcamento-wrapper">
+            <h1>Faça um orçamento</h1>
+            <form>
+              <label for="qtde">Qtde de Páginas</label>
+              <input type="number" min="1" name="qtde" id="qtde">
+              <label for="js">Preciso de um script JS</label>
+              <input type="checkbox" name="js" id="js">
+              <label>Layout</label>
+              <div class="group-layout">
+                <div>
+                  <input type="radio" name="layout" id="layout-sim">
+                  <label for="layout-sim">Preciso de um layout</label>
+                </div>
+                <div>
+                  <input type="radio" name="layout" id="layout-nao">
+                  <label for="layout-nao">Já tenho um layout</label>
+                </div>
+              </div>
+              <label for="prazo">Prazo</label>
+              <input type="range" name="prazo" id="prazo" min="1" max="10">
+              <label id="preco">R$ 0,00</label>
+              <button class="btn btn-orcamento" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-content">
+            <p>
+              Copyright &copy; 2020, ETECIA DS - Todos os diretos reservados
+            </p>
+            <div class="social-list">
+              <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <a href="#home" id="link-topo">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+   </body>
+
+   <script src="script.js"></script>
+</html>
